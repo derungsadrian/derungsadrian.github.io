@@ -1,0 +1,189 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Estimating Smart Garment Optimal Fitting during Activities of Daily Living</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<h1 id="title">Estimating Smart Garment Optimal Fitting during Activities of Daily Living</h1>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Introduction</span></a></li>
+								<li><a href="#innovation" id="about-link"><span class="icon solid fa-lightbulb">Innovation</span></a></li>
+								<li><a href="#publication" id="portfolio-link"><span class="icon solid fa-book">Publications and Talks</span></a></li>
+								<li><a href="#press" id="contact-link"><span class="icon solid fa-award">Awards and Press</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="three">
+						<div class="container">
+
+							<header>
+								<h2>Introduction</h2>
+							</header>
+
+							<p style="text-align:left;">
+								Nowadays, wearable devices offer the means to continuously monitor various human health parameters.
+								The positioning of sensors on the body is crucial for effective performance;
+								incorrect sensor placement can significantly impair the functionality of wearable systems. <br /><br />
+
+								Among these devices, smart clothing has gained substantial attention thanks to its comfort and user-friendliness.
+								In smart clothing, the efficiency and accuracy of embedded sensors are influenced not only by their relative position
+								to the body but also by how well they fit.
+								A loose connection between the skin and sensors can undermine device functionality,
+								while poor fitting to the body surface can impact usability.
+								Therefore, it's important to evaluate the influence and effects of fitting on the garment's sensing capabilities. <br /><br />
+
+								While various problem modeling approaches were proposed to aid garment designers over the past decades,
+								these analyses have predominantly been conducted in static human positions,
+								often overlooking sensor errors introduced during movement. <br /><br />
+
+								In this project, our goal is to establish a framework for the automated design of personalized smart clothing,
+								complete with integrated sensors.
+								We aim to assess how human motion during Activities of Daily Living (ADL) impacts the performance of different
+								sensing methods, thereby addressing the gap in understanding introduced by motion-induced sensor errors.
+								</p>
+
+						</div>
+					</section>
+
+				<!-- Innovation -->
+					<section id="innovation" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Innovation</h2>
+							</header>
+
+							<a class="image"><img src="images/design_pipeline.png" alt="" /><br />
+							</a>
+
+							<p style="text-align:left;">
+							We designed a framework that automates the extraction of body landmarks and associated measurements from 3D body scans.
+								This framework then generates personalized smart garments using the estimated body measurements.
+								The algorithm was trained and evaluated using 3000 synthetic 3D body models to estimate the necessary landmarks for T-Shirt design.
+								The effectiveness of the framework was confirmed through the automated tailoring of an electrocardiogram (ECG)-monitoring shirt,
+								resulting in a shirt that fit various body shapes with an average electrode-skin distance of 0.61 cm.  <br />
+
+							</p>
+
+							<a class="image"><img src="images/simulation_pipeline.jpg" alt="" />
+							</a>
+
+							<p style="text-align:left;"><br />
+							To evaluate the performance of contact sensors embedded in garments during typical Activities of Daily Living (ADL),
+								we developed a simulation method. Using 100 3D human body models with diverse shapes,
+								we virtually dressed them up with three differently fitted smart ECG-monitoring T-Shirts.
+								This allowed us to analyze the sensor-body distance and displacement during various ADLs.
+								Our findings indicated that performance variations were linked to body shape, garment fit, and movement type.
+							</p>
+							<video width="800" height="600" controls>
+							  <source src="videos/body_contact_sensors_teaser_video1.webm" type="video/webm">
+							</video>
+							<p style="text-align:left;"><br />
+							In future work, we plan to expand this method by considering fabric properties (like cotton or stretchable/functional materials)
+								to better understand their impact on fit and sensor performance.
+								We also intend to simulate different garment cuts to broaden the method's capabilities and application scope.
+								Furthermore, we will incorporate other sensor types such as orientation and strain sensors, along with corresponding
+								evaluation procedures, to accommodate a wider range of embedded electronics in garments.
+
+							</p>
+
+						</div>
+					</section>
+
+				<!-- Publications -->
+					<section id="publication" class="three">
+						<div class="container">
+
+							<header>
+								<h2>Publications and Talks</h2>
+							</header>
+
+							<ul>
+							  <li><p style="text-align:left;">Baronetto, A., Wassermann, D., & Amft, O. (2021, July).
+								  <i>Deep 3D Body Landmarks Estimation for Smart Garments Design.</i>
+								  In 2021 IEEE 17th International Conference on Wearable and Implantable Body Sensor Networks (BSN) (pp. 1-5). IEEE.
+								  <a href="https://doi.org/10.1109/BSN51625.2021.9507035">https://doi.org/10.1109/BSN51625.2021.9507035</a> <br /><br />
+							  I presented the work at the BSN '21 Conference.
+							  </p></li>
+							<li><p style="text-align:left;">Baronetto, A., Uhlenberg, L., Wassermann, D., & Amft, O. (2021, September).
+								<i>Simulation of garment-embedded contact sensor performance under motion dynamics.</i>
+								In Proceedings of the 2021 ACM International Symposium on Wearable Computers (pp. 73-77).
+								<a href="https://doi.org/10.1145/3460421.3480423">https://doi.org/10.1145/3460421.3480423</a><br /><br />
+							I presented the work at the ISWC '21 Conference (<a href="https://www.youtube.com/watch?v=7nXUnBJU1sE">link</a> to the presentation).</p></li>
+							</ul>
+
+
+						</div>
+					</section>
+
+
+
+				<!-- Awards -->
+					<section id="press" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Awards and Press</h2>
+							</header>
+
+							<p style="text-align:left;">The paper “Simulation of Garment-Embedded Contact Sensor Performance under Motion Dynamics”
+								presented by Annalisa Baronetto at Ubicomp/ISWC 2021 received the ‘Honorable Mention’ award.</p>
+
+							</header>
+
+
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
